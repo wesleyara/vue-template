@@ -1,11 +1,13 @@
-import { createApp } from "vue";
+import { addIcons, OhVueIcon } from "oh-vue-icons";
+
 import "./styles/globals.scss";
 import "./styles/typography.scss";
-import App from "./App.vue";
 
-import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { BiGithub } from "oh-vue-icons/icons";
 import { createPinia } from "pinia";
+import { createApp } from "vue";
+
+import App from "./App.vue";
 import router from "./router";
 
 addIcons(BiGithub);
