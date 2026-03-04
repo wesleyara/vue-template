@@ -53,7 +53,6 @@ export default [
         },
       ],
       "perfectionist/sort-imports": "error",
-      "perfectionist/sort-modules": "error",
       "perfectionist/sort-named-imports": "error",
       "perfectionist/sort-union-types": "error",
       "tailwindcss/classnames-order": "error",
